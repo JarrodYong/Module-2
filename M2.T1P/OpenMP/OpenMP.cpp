@@ -57,7 +57,7 @@ int main()
    // omp_set_num_threads(2);
 
     //Matrix Multiplication using OpenMP parallel for loop
-#pragma omp parallel for private(i, j, k) shared(A, B, C) num_threads(8) //Private was used for data leak prevention
+#pragma omp parallel for private(i, j, k) shared(A, B, C) num_threads(8)
     for (i = 0; i < arrSize; ++i)
     {
         for (j = 0; j < arrSize; ++j)

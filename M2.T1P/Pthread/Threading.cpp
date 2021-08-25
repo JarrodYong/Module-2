@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <fstream>
 #include <time.h>
-#include <thread> //Initialising thread library this was used instead of Pthread becuase it wasn't working for me
+#include <thread> //Initialising thread library this was used instead of Pthread becuase it wasn't working for me (See pdf for reasoning)
 
 using namespace std;
 
